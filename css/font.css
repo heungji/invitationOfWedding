@@ -1,37 +1,30 @@
-@font-face{
-  font-family: "Typo_DabangguB";
-  src: url("../font/Typo_DabangguB.ttf")format("truetype");
-  }
-
-@font-face{
-  font-family: "HongChawangjanemo";
-  src: url("../font/HongChawangjanemo.ttf")format("truetype");
-  }
-
-
-@font-face{
-  font-family: "DINReg";
-  src: url("../font/DINReg.ttf")format("truetype");
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
 }
+@font-face {
+  font-family: 'KyoboHand';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+  }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 769px){
 
   #wrap {
       font-size: 35px;
-      font-family: HongChawangjanemo;
+      font-family: KyoboHand;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 481px) {
 
   #wrap {
       font-size: 25px;
-      font-family: HongChawangjanemo;
+      font-family: KyoboHand;
     }
 
 }
-
+/*
 @media screen and (max-width: 480px) {
 
   #wrap {
@@ -44,4 +37,4 @@
   #wrap {
     }
 
-}
+} */
