@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) and (min-width:768px) {
+@media screen and (max-width: 1024px) and (min-width:769px) {
 
   #wrap{
     margin: auto;
@@ -19,7 +19,7 @@
   .menu>li{
     float: left;
     width: 170px;
-    font-family: Typo_DabangguB;
+    font-family: yg-jalnan;
     font-size: 35px;
     line-height: 95px;
     text-align: center;
@@ -45,10 +45,9 @@
     display: block;
     width: 768px;
     height: 1024px;
-    background-image: url(../images/bigS_banner.png);
+    background-image: url("https://drive.google.com/uc?export=view&id=1RU092rjZ3WP-KrZuGATywSICxpdGnE8N");
     background-repeat: no-repeat;
   }
-
 
   #text{
     clear: both;
@@ -62,22 +61,23 @@
     width: 220px;
     height: 60px;
     font-size: 50px;
+    font-weight: bold;
     line-height: 50px;
-    background-image: url(../images/textLine.png);
+    background-image: url("https://drive.google.com/uc?export=view&id=1J_Dkkh3AvMrZ7SnZPMPIdtCoQdIVO6D5");
   }
   #text>p.letter{
-    margin-top: 100px;
+    margin:100px 0;
     font-size: 40px;
     line-height: 50px;
     font-weight: 400;
   }
   #text>p.famName{
-    margin-top: 100px;
-    font-family: "Typo_DabangguB";
+    font-family: yg-jalnan;
     font-size: 32px;
   }
   #text>p.famName>span{
     font-size: 25px;
+    line-height: 25px;
   }
 
   #gallery{
@@ -142,7 +142,7 @@
     padding-bottom:50px;
     width: 100%;
     height: auto;
-    font-family: Typo_DabangguB;
+    font-family: yg-jalnan;
     font-size: 30px;
     line-height: 40px;
   }
@@ -154,6 +154,7 @@
   }
   #contact>div.contactBox>p{
     float: left;
+    line-height: 40px;
     width: 260px;
   }
   div.contactIcon{
@@ -168,16 +169,16 @@
     width: 40px;
     height: 40px;
   }
-  a.kakaostory{background-image: url(../images/768/kakaostory.png);}
-  a.instagram{background-image: url(../images/768/instagram.png);}
-  a.phone{background-image: url(../images/768/phone.png);}
+  a.kakaostory{background-image: url("https://drive.google.com/uc?export=view&id=1hUoq8EWshf34tmJX4HYWSq0vbiwI0eUX");}
+  a.instagram{background-image: url("https://drive.google.com/uc?export=view&id=13h7vnCqST6h9czUjuAypR17LgGh_IAU4" );}
+  a.phone{background-image: url("https://drive.google.com/uc?export=view&id=1Tdza6Ir1iTbqbZVqAfNq-Xd0mqxwJtdI");}
   #secondBanner{
     margin: auto;
     display: block;
     margin-top: 100px;
     width: 768px;
     height: 488px;
-    background-image: url(../images/secondBanner.gif);
+    background-image: url("https://drive.google.com/uc?export=view&id=12mqMRh8iY95IDKAQHeSwSw2s9gejZcFH");
   }
 
   #htw{
@@ -209,9 +210,9 @@
     border-bottom: dashed 1px #afafaf;
     background-repeat: no-repeat;
   }
-  a.navermap{background-image: url(../images/768/naverMap.png);}
-  a.googlemap{background-image: url(../images/768/googleMap.png);}
-  a.kakaomap{background-image: url(../images/768/kakaoMap.png);}
+  a.navermap{background-image: url("https://drive.google.com/uc?export=view&id=1hoxbSK2M3mK-vYrMlAXC3UYbImIQqOGm");}
+  a.googlemap{background-image: url("https://drive.google.com/uc?export=view&id=1kPonKi4u82peCa3EofAg9xji-0Dt2_04");}
+  a.kakaomap{background-image: url("https://drive.google.com/uc?export=view&id=1Tr842q1FZ-zzdcekVJn2gSGZvB-KbTQf");}
   .mapText>p{
     margin-top: 30px;
   }
@@ -222,10 +223,19 @@
     color:#f26834;
   }
 
+
   footer{
     clear: both;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #f4bfa9;
+  }
+  footer>p>a{
+    cursor: pointer;
+  }
+  footer>p>a>b{
+    font-family: yg-jalnan;
+    line-height: 80px;
+    color:white;
   }
 }

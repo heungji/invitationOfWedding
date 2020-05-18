@@ -3,15 +3,27 @@
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
 }
 @font-face {
-  font-family: 'KyoboHand';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
-  }
+  font-family: 'UhBeeZIGLE';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeZIGLE.woff') format('woff');
+}
+@font-face {
+  font-family: 'UhBeeWyum';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeWyum.woff') format('woff');
+}
+@font-face {
+  font-family: 'UhBeeTokki';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeTokki.woff') format('woff');
+}
+@font-face {
+  font-family: 'UhBeeYeonie';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeYeonie.woff') format('woff');
+}
 
 @media screen and (max-width: 1024px) and (min-width: 769px){
 
   #wrap {
       font-size: 35px;
-      font-family: KyoboHand;
+      font-family: UhBeeYeonie;
     }
 
 }
@@ -20,7 +32,7 @@
 
   #wrap {
       font-size: 25px;
-      font-family: KyoboHand;
+      font-family: UhBeeZIGLE;
     }
 
 }
