@@ -1,0 +1,47 @@
+@font-face{
+  font-family: "Typo_DabangguB";
+  src: url("../font/Typo_DabangguB.ttf")format("truetype");
+  }
+
+@font-face{
+  font-family: "HongChawangjanemo";
+  src: url("../font/HongChawangjanemo.ttf")format("truetype");
+  }
+
+
+@font-face{
+  font-family: "DINReg";
+  src: url("../font/DINReg.ttf")format("truetype");
+}
+
+@media screen and (max-width: 1024px) {
+
+  #wrap {
+      font-size: 35px;
+      font-family: HongChawangjanemo;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #wrap {
+      font-size: 25px;
+      font-family: HongChawangjanemo;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #wrap {
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  #wrap {
+    }
+
+}

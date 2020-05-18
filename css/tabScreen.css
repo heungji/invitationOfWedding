@@ -1,0 +1,231 @@
+@media screen and (max-width: 1024px) and (min-width:768px) {
+
+  #wrap{
+    margin: auto;
+  }
+
+  header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    background-color: #f4bfa9;
+  }
+  .menu{
+    margin: auto;
+    width: 680px;
+  }
+  .menu>li{
+    float: left;
+    width: 170px;
+    font-family: Typo_DabangguB;
+    font-size: 35px;
+    line-height: 95px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  .menu>li:hover{
+    border-bottom: solid 5px white;
+  }
+
+  section{
+    position: relative;
+    clear: both;
+    width: 100%;
+  }
+  .banner{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .bannerImg{
+    margin: auto;
+    display: block;
+    width: 768px;
+    height: 1024px;
+    background-image: url(../images/bigS_banner.png);
+    background-repeat: no-repeat;
+  }
+
+
+  #text{
+    clear: both;
+    padding:250px 0;
+    width: 100%;
+    height: auto;
+  }
+  #text>p.title{
+    display: block;
+    margin: auto;
+    width: 220px;
+    height: 60px;
+    font-size: 50px;
+    line-height: 50px;
+    background-image: url(../images/textLine.png);
+  }
+  #text>p.letter{
+    margin-top: 100px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+  }
+  #text>p.famName{
+    margin-top: 100px;
+    font-family: "Typo_DabangguB";
+    font-size: 32px;
+  }
+  #text>p.famName>span{
+    font-size: 25px;
+  }
+
+  #gallery{
+    clear: both;
+    padding-top:100px;
+    padding-bottom:30px;
+    width: 100%;
+    height: auto;
+    background-color: #f4bfa9;
+  }
+  #gallery>ul>li{
+    float: left;
+    display: block;
+    cursor: pointer;
+  }
+  .view{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    height: 750px;
+    width: 500px;
+  }
+  .picList{
+    position: absolute;
+    height: 750px;
+    width: 2500px;
+  }
+  .picList>li{
+    display: block;
+    float: left;
+    width: 500px;
+    height: 750px;
+  }
+  .picList>li:nth-child(1){background-image: url(../images/768/pic/1.gif);}
+  .picList>li:nth-child(2){background-image: url(../images/768/pic/2.gif);}
+  .picList>li:nth-child(3){background-image: url(../images/768/pic/3.gif);}
+  .picList>li:nth-child(4){background-image: url(../images/768/pic/4.gif);}
+  .picList>li:nth-child(5){background-image: url(../images/768/pic/5.gif);}
+  .picButton{
+    margin: auto;
+    margin-top:30px;
+    width: 500px;
+    height: 70px;
+  }
+  .picButton>li{
+    display: block;
+    margin: 0 15px;
+    width: 68px;
+    height: 68px;
+    border: solid 1px white;
+    border-radius: 10px;
+  }
+  .picButton>li:nth-child(1){background-image: url(../images/768/pic/picButton/1.gif);}
+  .picButton>li:nth-child(2){background-image: url(../images/768/pic/picButton/2.gif);}
+  .picButton>li:nth-child(3){background-image: url(../images/768/pic/picButton/3.gif);}
+  .picButton>li:nth-child(4){background-image: url(../images/768/pic/picButton/4.gif);}
+  .picButton>li:nth-child(5){background-image: url(../images/768/pic/picButton/5.gif);}
+
+  #contact{
+    clear: both;
+    padding-top: 150px;
+    padding-bottom:50px;
+    width: 100%;
+    height: auto;
+    font-family: Typo_DabangguB;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  #contact>div.contactBox{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 440px;
+    height: 40px;
+  }
+  #contact>div.contactBox>p{
+    float: left;
+    width: 260px;
+  }
+  div.contactIcon{
+    float: right;
+    width: 180px;
+    height: 40px;
+  }
+  div.contactIcon>a{
+    float: left;
+    display: block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+  }
+  a.kakaostory{background-image: url(../images/768/kakaostory.png);}
+  a.instagram{background-image: url(../images/768/instagram.png);}
+  a.phone{background-image: url(../images/768/phone.png);}
+  #secondBanner{
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    width: 768px;
+    height: 488px;
+    background-image: url(../images/secondBanner.gif);
+  }
+
+  #htw{
+    clear: both;
+    padding: 100px 0;
+    width: 100%;
+    height: auto;
+  }
+  .map{
+    margin: auto;
+    width: 766px;
+    height: 498px;
+    border: solid 1px #afafaf;
+    background-image: url(../images/768/map.gif);
+  }
+  .mapIcon{
+    display: block;
+    margin: 30px auto;
+    height: 40px;
+    width: 180px;
+  }
+  .mapIcon>a{
+    float: left;
+    display: block;
+    margin:0 10px;
+    padding-bottom: 2px;
+    width: 40px;
+    height: 43px;
+    border-bottom: dashed 1px #afafaf;
+    background-repeat: no-repeat;
+  }
+  a.navermap{background-image: url(../images/768/naverMap.png);}
+  a.googlemap{background-image: url(../images/768/googleMap.png);}
+  a.kakaomap{background-image: url(../images/768/kakaoMap.png);}
+  .mapText>p{
+    margin-top: 30px;
+  }
+  .place{
+    font-size: 60px;
+  }
+  .mapText>p>span{
+    color:#f26834;
+  }
+
+  footer{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: #f4bfa9;
+  }
+}
