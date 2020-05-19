@@ -32,27 +32,28 @@
   section{
     position: relative;
     clear: both;
-    margin-top: 50px;
     width: 100%;
+    height: auto;
   }
   .banner{
+    padding-top: 60;
     display: block;
     width: 100%;
     height: auto;
   }
   .bannerImg{
-    margin: auto;
-    /* display: block; */
+    margin:0 auto;
+    display: block;
     width: 480px;
-    height: 960px;
-    /* background-image: url("https://drive.google.com/uc?export=view&id=1T2xjATFQx1AqaeE-cbXw8eeoBDqv3Gbx");
-    background-repeat: no-repeat;*/
+    height: 900px;
+    background-image: url("https://drive.google.com/uc?export=view&id=1-Pjm3SkQAb2Nkswu55rw-21NDkPEcdE0");
+    background-repeat: no-repeat;
   }
 
   #text{
     clear: both;
     margin: 0 auto;
-    padding-top:100px;
+    padding-top:160px;
     width: 480px;
     height: 800px;
   }
@@ -66,22 +67,23 @@
   }
   #text>p.letter{
     margin:100px 0;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 50px;
   }
   #text>p.famName{
     font-family: YESMyoungjo-Bold;
+    line-height: 40px;
   }
   #text>p.famName>span{
+    font-size: 20px;
+    line-height: 25px;
   }
 
   #gallery{
     clear: both;
     padding-top:80px;
-    padding-bottom:30px;
     width: 100%;
-    height: auto;
-    background-color: #f4bfa9;
+    height: 880px;
   }
   #gallery>ul>li{
     float: left;
@@ -94,6 +96,7 @@
     position: relative;
     height: 750px;
     width: 480px;
+    border-radius: 20px;
   }
   .picList{
     position: absolute;
@@ -134,54 +137,63 @@
 
   #contact{
     clear: both;
-    padding-top: 150px;
-    padding-bottom:50px;
+    display: block;
+    padding-top:160px;
     width: 100%;
-    height: auto;
-    font-family: yg-jalnan;
+    height: 800px;
     font-size: 30px;
     line-height: 40px;
   }
   #contact>div.contactBox{
     margin: auto;
-    margin-bottom: 30px;
-    width: 440px;
+    margin-bottom: 10px;
+    width: 340px;
     height: 40px;
   }
   #contact>div.contactBox>p{
     float: left;
-    line-height: 40px;
-    width: 260px;
+    font-family: KyoboHand;
+    line-height: 25px;
+    width: 230px;
+    font-weight: bold;
   }
   div.contactIcon{
     float: right;
-    width: 180px;
-    height: 40px;
+    width: 110px;
+    height: 25px;
   }
   div.contactIcon>a{
     float: left;
     display: block;
-    margin: 0 10px;
-    width: 40px;
-    height: 40px;
+    margin: 0 5px;
+    width: 25px;
+    height: 25px;
   }
-  a.kakaostory{background-image: url("https://drive.google.com/uc?export=view&id=1hUoq8EWshf34tmJX4HYWSq0vbiwI0eUX");}
-  a.instagram{background-image: url("https://drive.google.com/uc?export=view&id=13h7vnCqST6h9czUjuAypR17LgGh_IAU4" );}
-  a.phone{background-image: url("https://drive.google.com/uc?export=view&id=1Tdza6Ir1iTbqbZVqAfNq-Xd0mqxwJtdI");}
+  a.kakaostory{background-image: url("https://drive.google.com/uc?export=view&id=1aj0t970sXE6N23sU5WyGuLuGws4D4pzS");}
+  a.instagram{background-image: url("https://drive.google.com/uc?export=view&id=19OoQxfT9PAEdkrmoqBxRqx0GwHvVanBa" );}
+  a.phone{background-image: url("https://drive.google.com/uc?export=view&id=1-pPSrVIj5f1BrAE-XdR61V9bkSVCWNI3");}
   #secondBanner{
+    clear: both;
     margin: auto;
+    margin-top:180px;
+    padding:40px 0;
     display: block;
-    margin-top: 100px;
     width: 480px;
-    height: 488px;
-    background-image: url("https://drive.google.com/uc?export=view&id=12mqMRh8iY95IDKAQHeSwSw2s9gejZcFH");
+    height: 321px;
+    background-image: url("https://drive.google.com/uc?export=view&id=1SdzNvlqMzl-OOT6sP6sQyDsYb9msZQ7S");
+  }
+  #secondBanner:hover{
+    padding:42px 0;
+    width: 480px;
+    height: 321px;
+    background-image: url("https://drive.google.com/uc?export=view&id=1zVPre__mL9KCVNSD675dtJ7UbP_CkD6l");
   }
 
   #htw{
     clear: both;
-    padding: 100px 0;
+    padding: 60px 0;
     width: 100%;
-    height: auto;
+    height: 900px;
   }
   .map{
     margin: auto;
@@ -192,28 +204,32 @@
   }
   .mapIcon{
     display: block;
-    margin: 30px auto;
-    height: 40px;
-    width: 180px;
+    margin: 10px auto;
+    height: 25px;
+    width: 110px;
   }
   .mapIcon>a{
     float: left;
     display: block;
-    margin:0 10px;
+    margin:0 5px;
     padding-bottom: 2px;
-    width: 40px;
-    height: 43px;
+    width: 25px;
+    height: 25px;
     border-bottom: dashed 1px #afafaf;
     background-repeat: no-repeat;
   }
-  a.navermap{background-image: url("https://drive.google.com/uc?export=view&id=1hoxbSK2M3mK-vYrMlAXC3UYbImIQqOGm");}
-  a.googlemap{background-image: url("https://drive.google.com/uc?export=view&id=1kPonKi4u82peCa3EofAg9xji-0Dt2_04");}
-  a.kakaomap{background-image: url("https://drive.google.com/uc?export=view&id=1Tr842q1FZ-zzdcekVJn2gSGZvB-KbTQf");}
+  a.navermap{background-image: url("https://drive.google.com/uc?export=view&id=1Ex_o1Aq6dXrAQyzczCYytnHjBtu5flOS");}
+  a.googlemap{background-image: url("https://drive.google.com/uc?export=view&id=1EY5u_cFPDWBR4le0TeVjv27GhINPg2Cj");}
+  a.kakaomap{background-image: url("https://drive.google.com/uc?export=view&id=17IJr58zqVhdcnuDcpuzcZM16Ws5za4MA");}
+  .mapText{
+    font-family: UhBeeZIGLE;
+  }
   .mapText>p{
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .place{
-    font-size: 60px;
+    font-size: 35px;
+    font-weight: bold;
   }
   .mapText>p>span{
     color:#f26834;
@@ -223,15 +239,15 @@
   footer{
     clear: both;
     width: 100%;
-    height: 80px;
-    background-color: #f4bfa9;
+    height: 60px;
+    background-color: gray;
   }
   footer>p>a{
     cursor: pointer;
   }
   footer>p>a>b{
-    font-family: yg-jalnan;
-    line-height: 80px;
+    font-family: UhBeeZIGLE;
+    line-height: 60 px;
     color:white;
   }
 }
