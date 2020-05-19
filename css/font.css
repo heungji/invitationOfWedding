@@ -22,6 +22,14 @@
   font-family: 'YESMyoungjo-Bold';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/YESMyoungjo-Bold.woff') format('woff');
  }
+ @font-face {
+   font-family: 'MapoDacapo';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoDacapoA.woff') format('woff');
+}
+@font-face {
+  font-family: 'ghanachoco';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+}
 
 @media screen and (max-width: 1024px) and (min-width:768px) {
   #wrap {
@@ -42,6 +50,6 @@
 @media screen and (max-width: 480px){
   #wrap {
       font-size: 20px;
-      font-family: UhBeeRice;
+      font-family: MapoDacapo;
     }
 }

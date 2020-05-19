@@ -3,7 +3,7 @@
 	    margin: auto;
 	    height: auto;
 			background-image: url("https://drive.google.com/uc?export=view&id=1d28YICt_tmI8PnhIKRc-6NlVooeiFN3L");
-			background-repeat: repeat;
+			background-repeat: repeat-y;
 	  }
 
 	  header{
@@ -11,7 +11,7 @@
 	    position: fixed;
 	    width: 100%;
 	    top: 0;
-	    height: 40px;
+	    height: 60px;
 			background-image: url("https://drive.google.com/uc?export=view&id=1w1x4JhsdfufpIxvHrnIxP279PqBt-VtR");
 			background-repeat: repeat-x;
 	  }
@@ -23,8 +23,9 @@
 	    float: left;
 	    width: 90px;
 	    font-family: KyoboHand;
-	    line-height: 30px;
+	    line-height: 50px;
 	    text-align: center;
+			color:#d18b83;
 	    cursor: pointer;
 	  }
 
@@ -35,7 +36,7 @@
 	    height: auto;
 	  }
 	  .banner{
-	    padding-top: 60;
+	    padding-top: 60px;
 	    display: block;
 	    width: 100%;
 	    height: auto;
@@ -44,17 +45,17 @@
 	    margin:0 auto;
 	    display: block;
 	    width: 360px;
-	    height: 600px;
-	    background-image: url("https://drive.google.com/uc?export=view&id=1-Pjm3SkQAb2Nkswu55rw-21NDkPEcdE0");
+	    height: 580px;
+	    background-image: url("https://drive.google.com/uc?export=view&id=1Ho0dFj-HUmV0MrEAXWfSonzqAgfYavxa");
 	    background-repeat: no-repeat;
 	  }
 
 	  #text{
 	    clear: both;
 	    margin: 0 auto;
-	    padding-top:160px;
+	    padding-top:100px;
 	    width: 480px;
-	    height: 800px;
+	    height: 540px;
 	  }
 	  #text>p.title{
 	    display: block;
@@ -66,11 +67,10 @@
 	  }
 	  #text>p.letter{
 	    margin:100px 0;
-	    font-size: 22px;
-	    line-height: 50px;
+	    line-height: 40px;
 	  }
 	  #text>p.famName{
-	    font-family: YESMyoungjo-Bold;
+	    font-family: ghanachoco;
 	    line-height: 40px;
 	  }
 	  #text>p.famName>span{
