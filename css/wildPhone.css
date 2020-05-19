@@ -1,6 +1,9 @@
-@media screen and (max-width: 768px) and (min-width:481px) {
+@media screen and (max-width: 767px) and (min-width:480px) {
   #wrap{
     margin: auto;
+    height: auto;
+    background-image:url("https://drive.google.com/uc?export=view&id=1ZqPeTz6gF6OYiCP2lJvfpp6UsHe6n9XO");
+    background-repeat: repeat-y;
   }
 
   header{
@@ -8,9 +11,9 @@
     position: fixed;
     width: 100%;
     top: 0;
-    height: 79px;
-    background-color: white;
-    border-bottom: solid 1px #f4bfa9;
+    height: 60px;
+    background-image:url("https://drive.google.com/uc?export=view&id=1v-KFHfvF858DDaZgfDyS81ecbCM0Q_bw");
+    background-repeat: repeat-x;
   }
   .menu{
     margin: auto;
@@ -19,17 +22,17 @@
   .menu>li{
     float: left;
     width: 120px;
-    font-family: yg-jalnan;
-    line-height: 79px;
+    font-family: KyoboHand;
+    line-height: 60px;
     text-align: center;
     cursor: pointer;
-    color: #f4bfa9;
+    color: #4f4f4f;
   }
 
   section{
     position: relative;
     clear: both;
-    margin-top: 80px;
+    margin-top: 50px;
     width: 100%;
   }
   .banner{
@@ -39,17 +42,17 @@
   }
   .bannerImg{
     margin: auto;
-    display: block;
+    /* display: block; */
     width: 480px;
     height: 960px;
-    background-image: url("https://drive.google.com/uc?export=view&id=1T2xjATFQx1AqaeE-cbXw8eeoBDqv3Gbx");
-    background-repeat: no-repeat;
+    /* background-image: url("https://drive.google.com/uc?export=view&id=1T2xjATFQx1AqaeE-cbXw8eeoBDqv3Gbx");
+    background-repeat: no-repeat;*/
   }
 
   #text{
     clear: both;
     margin: 0 auto;
-    padding-top:160px;
+    padding-top:100px;
     width: 480px;
     height: 800px;
   }
@@ -57,25 +60,19 @@
     display: block;
     margin: auto;
     width: 220px;
-    height: 60px;
-    font-size: 40px;
+    height: 25px;
+    line-height: 25px;
     font-weight: bold;
-    line-height: 40px;
-    background-image: url("https://drive.google.com/uc?export=view&id=1J_Dkkh3AvMrZ7SnZPMPIdtCoQdIVO6D5");
   }
   #text>p.letter{
     margin:100px 0;
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
   }
   #text>p.famName{
-    font-family: yg-jalnan;
-    font-size: 25px;
+    font-family: YESMyoungjo-Bold;
   }
   #text>p.famName>span{
-    font-size: 20px;
-    line-height: 25px;
   }
 
   #gallery{
@@ -188,10 +185,10 @@
   }
   .map{
     margin: auto;
-    width: 766px;
-    height: 498px;
+    width: 480px;
+    height: 440px;
     border: solid 1px #afafaf;
-    background-image: url("https://drive.google.com/uc?export=view&id=1LUMVdIvDJkoOjE6nn8uQ9XrjzivIR9Uj");
+    background-image: url("https://drive.google.com/uc?export=view&id=1KnTYy7I3uTGhI8AcCdV0AsVyT1xR7D-J");
   }
   .mapIcon{
     display: block;
