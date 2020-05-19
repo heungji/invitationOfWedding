@@ -1,0 +1,7 @@
+@media screen and (max-width: 480px){
+  #wrap {
+      font-size: 25px;
+      font-family: UhBeeRice;
+			background: red;
+    }
+}
