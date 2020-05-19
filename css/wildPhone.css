@@ -183,7 +183,8 @@
     background-image: url("https://drive.google.com/uc?export=view&id=1SdzNvlqMzl-OOT6sP6sQyDsYb9msZQ7S");
   }
   #secondBanner:hover{
-    padding:42px 0;
+    display: block;
+    padding:40px 0;
     width: 480px;
     height: 321px;
     background-image: url("https://drive.google.com/uc?export=view&id=1zVPre__mL9KCVNSD675dtJ7UbP_CkD6l");
