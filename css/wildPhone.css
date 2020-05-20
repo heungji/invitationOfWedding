@@ -189,6 +189,7 @@
     height: 439px;
     border: solid 1px #afafaf;
     background-image: url("https://drive.google.com/uc?export=view&id=1KnTYy7I3uTGhI8AcCdV0AsVyT1xR7D-J");
+    background-repeat: no-repeat;
   }
   .mapIcon{
     display: block;
