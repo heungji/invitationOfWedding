@@ -1,4 +1,5 @@
 $(function(){
+
   $(".menu li").mousedown(function(){
 
     var scrollPosition = $($(this).attr("data-target")).offset().top;
@@ -7,6 +8,7 @@ $(function(){
    }, 500);
 
   });
+
   $("footer p a").mousedown(function(){
 
     var scrollPosition = $($(this).attr("data-target")).offset().top;
@@ -16,4 +18,4 @@ $(function(){
 
   });
 
-  });
+});
