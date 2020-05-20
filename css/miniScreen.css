@@ -92,6 +92,7 @@
   	    float: left;
   	    width: 260px;
   	    height: 390px;
+        background-repeat: no-repeat;
   	  }
   	  .picList>li:nth-child(1){background-image: url("https://drive.google.com/uc?export=view&id=1qCYh3cKDmCBSbSR6RnCgN7ajkr66e13j");}
   	  .picList>li:nth-child(2){background-image: url("https://drive.google.com/uc?export=view&id=1VKCnUp0U5ObdLWkfebMFE3Be05WWmfCU");}
@@ -144,6 +145,7 @@
   	    margin: 0 5px;
   	    width: 25px;
   	    height: 25px;
+        background-repeat: no-repeat;
   	  }
   	  a.kakaostory{background-image: url("https://drive.google.com/uc?export=view&id=1aj0t970sXE6N23sU5WyGuLuGws4D4pzS");}
   	  a.instagram{background-image: url("https://drive.google.com/uc?export=view&id=19OoQxfT9PAEdkrmoqBxRqx0GwHvVanBa" );}
@@ -155,6 +157,7 @@
   	    width: 320px;
   	    height: 250px;
   	    background-image: url("https://drive.google.com/uc?export=view&id=1mTl77gFRnaIkqpTb8FfVskKm9ooO1RKi");
+        background-repeat: no-repeat;
   	  }
 
   	  #htw{
@@ -168,6 +171,7 @@
   	    height: 319px;
   	    border: solid 1px #afafaf;
   	    background-image: url("https://drive.google.com/uc?export=view&id=10Lv1UsfJiQvZaVNGcxIix3qG__kPab0M");
+        background-repeat: no-repeat;
   	  }
   	  .mapIcon{
   	    display: block;

@@ -53,6 +53,7 @@
     font-weight: bold;
     line-height: 50px;
     background-image: url("https://drive.google.com/uc?export=view&id=1J_Dkkh3AvMrZ7SnZPMPIdtCoQdIVO6D5");
+    background-repeat: no-repeat;
   }
   #text>p.letter{
     margin:100px 0;
@@ -100,6 +101,7 @@
     float: left;
     width: 500px;
     height: 750px;
+    background-repeat: no-repeat;
   }
   .picList>li:nth-child(1){background-image: url("https://drive.google.com/uc?export=view&id=1T4pYt-GFXSpFiW3KwLV6MPXoIkc_LecP");}
   .picList>li:nth-child(2){background-image: url("https://drive.google.com/uc?export=view&id=1TI3SLdfGRJJ-gYlwBuR9mH9ZuCYUxiHZ");}
@@ -119,6 +121,7 @@
     height: 68px;
     border: solid 1px white;
     border-radius: 10px;
+    background-repeat: no-repeat;
   }
   .picButton>li:nth-child(1){background-image: url("https://drive.google.com/uc?export=view&id=1M5txEMvHjPcfmeFFSXsDhi_LpMU5y0fC");}
   .picButton>li:nth-child(2){background-image: url("https://drive.google.com/uc?export=view&id=1gDJgaT6kcxEJNtpTc-mOnXMMuvV2my6x");}
@@ -158,6 +161,7 @@
     margin: 0 10px;
     width: 40px;
     height: 40px;
+    background-repeat: no-repeat;
   }
   a.kakaostory{background-image: url("https://drive.google.com/uc?export=view&id=1hUoq8EWshf34tmJX4HYWSq0vbiwI0eUX");}
   a.instagram{background-image: url("https://drive.google.com/uc?export=view&id=13h7vnCqST6h9czUjuAypR17LgGh_IAU4" );}
@@ -169,6 +173,7 @@
     width: 768px;
     height: 488px;
     background-image: url("https://drive.google.com/uc?export=view&id=12mqMRh8iY95IDKAQHeSwSw2s9gejZcFH");
+    background-repeat: no-repeat;
   }
 
   #htw{
@@ -183,6 +188,7 @@
     height: 498px;
     border: solid 1px #afafaf;
     background-image: url("https://drive.google.com/uc?export=view&id=1LUMVdIvDJkoOjE6nn8uQ9XrjzivIR9Uj");
+    background-repeat: no-repeat;
   }
   .mapIcon{
     display: block;
