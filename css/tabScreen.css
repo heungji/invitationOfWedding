@@ -1,14 +1,6 @@
 @media screen and (max-width: 1024px) and (min-width:769px) {
 
-  #wrap{
-    margin: auto;
-  }
-
   header{
-    z-index: 1;
-    position: fixed;
-    width: 100%;
-    top: 0;
     height: 100px;
     background-color: #f4bfa9;
   }
@@ -30,11 +22,7 @@
     border-bottom: solid 5px white;
   }
 
-  section{
-    clear: both;
-    width: 100%;
-    height: auto;
-  }
+
   .banner{
     margin-top:100px;
     display: block;
@@ -220,9 +208,6 @@
   }
   .place{
     font-size: 60px;
-  }
-  .mapText>p>span{
-    color:#f26834;
   }
 
 

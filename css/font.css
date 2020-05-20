@@ -34,6 +34,10 @@
   font-family: 'SDMiSaeng';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDMiSaeng.woff') format('woff');
 }
+@font-face {
+  font-family: 'UhBeeHYUNJUNG';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeHYUNJUNG.woff') format('woff');
+}
 
 @media screen and (max-width: 1024px) and (min-width:768px) {
   #wrap {

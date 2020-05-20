@@ -1,16 +1,10 @@
 @media screen and (max-width: 480px) and (min-width:360px){
 	  #wrap{
-	    margin: auto;
-	    height: auto;
 			background-image: url("https://drive.google.com/uc?export=view&id=1d28YICt_tmI8PnhIKRc-6NlVooeiFN3L");
 			background-repeat: repeat-y;
 	  }
 
 	  header{
-	    z-index: 1;
-	    position: fixed;
-	    width: 100%;
-	    top: 0;
 	    height: 60px;
 			background-image: url("https://drive.google.com/uc?export=view&id=1w1x4JhsdfufpIxvHrnIxP279PqBt-VtR");
 			background-repeat: repeat-x;
@@ -29,12 +23,6 @@
 	    cursor: pointer;
 	  }
 
-	  section{
-	    position: relative;
-	    clear: both;
-	    width: 100%;
-	    height: auto;
-	  }
 	  .banner{
 	    padding-top: 60px;
 	    display: block;
@@ -214,9 +202,6 @@
 	  .place{
 	    font-size: 25px;
 	    font-weight: bold;
-	  }
-	  .mapText>p>span{
-	    color:#f26834;
 	  }
 
 
