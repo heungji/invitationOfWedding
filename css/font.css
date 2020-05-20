@@ -51,9 +51,18 @@
 
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) and (min-width:360px){
   #wrap {
       font-size: 20px;
       font-family: MapoDacapo;
     }
+
+}
+
+@media screen and (max-width: 359px) {
+      #wrap {
+          font-size: 15px;
+          font-family: MapoDacapo;
+    }
+
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) and (min-width:319px){
+@media screen and (max-width: 480px) and (min-width:360px){
 	  #wrap{
 	    margin: auto;
 	    height: auto;
@@ -179,7 +179,7 @@
 	    clear: both;
 	    padding: 60px 0;
 	    width: 100%;
-	    height: 600px;
+	    height: auto;
 	  }
 	  .map{
 	    margin: auto;
