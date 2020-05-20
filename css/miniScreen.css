@@ -1,0 +1,233 @@
+@media screen and (max-width: 359px) {
+  	  #wrap{
+  	    margin: auto;
+  	    height: auto;
+  			background-image: url("https://drive.google.com/uc?export=view&id=1d28YICt_tmI8PnhIKRc-6NlVooeiFN3L");
+  			background-repeat: repeat-y;
+  	  }
+
+  	  header{
+  	    z-index: 1;
+  	    position: fixed;
+  	    width: 100%;
+  	    top: 0;
+  	    height: 60px;
+  			background-image: url("https://drive.google.com/uc?export=view&id=1w1x4JhsdfufpIxvHrnIxP279PqBt-VtR");
+  			background-repeat: repeat-x;
+  	  }
+  	  .menu{
+  	    margin: auto;
+  	    width: 360px;
+  	  }
+  	  .menu>li{
+  	    float: left;
+  	    width: 80px;
+  	    font-family: KyoboHand;
+  	    line-height: 50px;
+  	    text-align: center;
+  			color:#d18b83;
+  	    cursor: pointer;
+  	  }
+
+  	  section{
+  	    position: relative;
+  	    clear: both;
+  	    width: 100%;
+  	    height: auto;
+  	  }
+  	  .banner{
+  	    padding-top: 60px;
+  	    display: block;
+  	    width: 100%;
+  	    height: auto;
+  	  }
+  	  .bannerImg{
+  	    margin:0 auto;
+  	    display: block;
+  	    width: 320px;
+  	    height: 420px;
+  	    background-image: url("https://drive.google.com/uc?export=view&id=1Suc2czLyC7uWIKPABJ_SKscAl2T66xcG");
+  	    background-repeat: no-repeat;
+  	  }
+
+  	  #text{
+  	    clear: both;
+  	    margin: 0 auto;
+  	    padding-top:60px;
+  	    width: 320px;
+  	    height: 420px;
+  	  }
+  	  #text>p.title{
+  	    display: block;
+  	    margin: 0 auto;
+  	    width:100px;
+  	    height: 30px;
+  	    line-height: 30px;
+  	    font-weight: bold;
+  			border-bottom: double 3px #d18b83;
+  	  }
+  	  #text>p.letter{
+  	    margin:50px 0;
+  	    line-height: 40px;
+  	  }
+  	  #text>p.famName{
+  	    font-family: ghanachoco;
+  	    line-height: 30px;
+  	  }
+
+  	  #gallery{
+  	    clear: both;
+  	    padding-top:60px;
+  	    width: 100%;
+  	    height: 420px;
+  	  }
+  	  #gallery>ul>li{
+  	    float: left;
+  	    display: block;
+  	    cursor: pointer;
+  	  }
+  	  .view{
+  	    margin: auto;
+  	    overflow: hidden;
+  	    position: relative;
+  	    height: 390px;
+  	    width: 260px;
+  	    border-radius: 20px;
+  	  }
+  	  .picList{
+  	    position: absolute;
+  	    height: 540px;
+  	    width: 1300px;
+  	  }
+  	  .picList>li{
+  	    display: block;
+  	    float: left;
+  	    width: 260px;
+  	    height: 390px;
+  	  }
+  	  .picList>li:nth-child(1){background-image: url("https://drive.google.com/uc?export=view&id=1qCYh3cKDmCBSbSR6RnCgN7ajkr66e13j");}
+  	  .picList>li:nth-child(2){background-image: url("https://drive.google.com/uc?export=view&id=1VKCnUp0U5ObdLWkfebMFE3Be05WWmfCU");}
+  	  .picList>li:nth-child(3){background-image: url("https://drive.google.com/uc?export=view&id=1RBMhe6p_ZFltPCPkNsdvQQ7IBUDBlkR5");}
+  	  .picList>li:nth-child(4){background-image: url("https://drive.google.com/uc?export=view&id=1QldOXKWmzZJcc6Udoz9Xw4ZrznLH6SXs");}
+  	  .picList>li:nth-child(5){background-image: url("https://drive.google.com/uc?export=view&id=1n-mYPkMGXf6k91SAv5URKtn5XQYo2vCo");}
+
+  	  .picButton{
+  	    margin: auto;
+  	    margin-top:10px;
+  	    width: 260px;
+  	    height: 20px;
+  	  }
+  	  .picButton>li{
+  	    display: block;
+  	    margin: 0 5px;
+  	    width: 42px;
+  	    height: 20px;
+  	    border-radius: 10px;
+  			background-color:#d18b83;
+  	  }
+
+  	  #contact{
+  	    clear: both;
+  	    display: block;
+  	    padding-top:100px;
+  	    width: 100%;
+  	    height: 380px;
+  	  }
+  	  #contact>div.contactBox{
+  	    margin: auto;
+  	    margin-bottom: 10px;
+  	    width: 250px;
+  	    height: 25px;
+  	  }
+  	  #contact>div.contactBox>p{
+  	    float: left;
+  	    font-family: ghanachoco;
+  			line-height: 25px;
+  	    width: 130px;
+  	  }
+  	  div.contactIcon{
+  	    float: right;
+  	    width: 110px;
+  	    height: 25px;
+  	  }
+  	  div.contactIcon>a{
+  	    float: left;
+  	    display: block;
+  	    margin: 0 5px;
+  	    width: 25px;
+  	    height: 25px;
+  	  }
+  	  a.kakaostory{background-image: url("https://drive.google.com/uc?export=view&id=1aj0t970sXE6N23sU5WyGuLuGws4D4pzS");}
+  	  a.instagram{background-image: url("https://drive.google.com/uc?export=view&id=19OoQxfT9PAEdkrmoqBxRqx0GwHvVanBa" );}
+  	  a.phone{background-image: url("https://drive.google.com/uc?export=view&id=1-pPSrVIj5f1BrAE-XdR61V9bkSVCWNI3");}
+  	  #secondBanner{
+  	    clear: both;
+  	    margin:30px auto;
+  	    display: block;
+  	    width: 320px;
+  	    height: 250px;
+  	    background-image: url("https://drive.google.com/uc?export=view&id=1mTl77gFRnaIkqpTb8FfVskKm9ooO1RKi");
+  	  }
+
+  	  #htw{
+  	    clear: both;
+  	    padding: 60px 0;
+  	    width: 100%;
+  	  }
+  	  .map{
+  	    margin: auto;
+  	    width: 319px;
+  	    height: 319px;
+  	    border: solid 1px #afafaf;
+  	    background-image: url("https://drive.google.com/uc?export=view&id=10Lv1UsfJiQvZaVNGcxIix3qG__kPab0M");
+  	  }
+  	  .mapIcon{
+  	    display: block;
+  	    margin: 10px auto;
+  	    height: 25px;
+  	    width: 110px;
+  	  }
+  	  .mapIcon>a{
+  	    float: left;
+  	    display: block;
+  	    margin:0 5px;
+  	    width: 25px;
+  	    height: 25px;
+  	    background-repeat: no-repeat;
+  	  }
+  	  a.navermap{background-image: url("https://drive.google.com/uc?export=view&id=1Ex_o1Aq6dXrAQyzczCYytnHjBtu5flOS");}
+  	  a.googlemap{background-image: url("https://drive.google.com/uc?export=view&id=1EY5u_cFPDWBR4le0TeVjv27GhINPg2Cj");}
+  	  a.kakaomap{background-image: url("https://drive.google.com/uc?export=view&id=17IJr58zqVhdcnuDcpuzcZM16Ws5za4MA");}
+  	  .mapText{
+  	    font-family: SDMiSaeng;
+  	  }
+  	  .mapText>p{
+  	    margin-top: 20px;
+  	  }
+  	  .place{
+  	    font-size: 20px;
+  	    font-weight: bold;
+  	  }
+  	  .mapText>p>span{
+  	    color:#f26834;
+  	  }
+
+
+  		footer{
+  			position: fixed;
+  			top:10;
+  			right:5;
+  			width: 50px;
+  			padding-top: 50px;
+  			height: 20px;
+  			font-size: 10px;
+  			line-height: 10px;
+  			font-family: KyoboHand;
+  			border-radius: 50px;
+  			background-color: white;
+  			opacity: 0.5;
+  			cursor: pointer;
+  		}
+  	}
+
+}
